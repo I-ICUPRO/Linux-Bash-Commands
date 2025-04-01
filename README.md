@@ -3532,6 +3532,7 @@ apt install wget=1.2.3              # Install a specific version of the wget pac
 apt remove wget                     # Removes the wget package
 apt upgrade                         # Upgrades all upgradable packages
 apt clean                           # Clears out the local repository of downloaded package files
+apt autoremove                      # Автоматический удаляет ненужные пакеты которые ранее использовались другими пакетами или программами.
 
 dpkg -i|--install package_name.deb  # Install deb file
 dpkg -P package_name.deb            # Remove a deb file installion (including configuration files)
